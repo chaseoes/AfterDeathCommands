@@ -1,0 +1,6 @@
+name: AfterDeathCommands
+main: me.chaseoes.afterdeathcommands.AfterDeathCommands
+version: 1.0
+description: Prevent players from using commands after they die, for a configured amount of time.
+author: chaseoes
+website: http://a1chase.com
