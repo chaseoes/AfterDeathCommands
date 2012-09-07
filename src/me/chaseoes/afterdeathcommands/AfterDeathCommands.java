@@ -41,7 +41,7 @@ public class AfterDeathCommands extends JavaPlugin implements Listener {
     public void onDeath(final PlayerDeathEvent event) {
         // Add player to hashmap.
         final String player = event.getEntity().getName();
-        if (players.get(player) == null) {
+        if (!(players.get(player) != null)) {
             players.put(player, 1);
         }
 
